@@ -1,0 +1,6 @@
+ camelCase (JavaScript)
+ TitleCase / PascalCase (C#)
+ kebob-case (fruit-meat-veggie) (file-and-folder-names)
+ snake_case (tsss_tsss) (SQL and Python)
+ READMECASE (for constants, license&readme)
+ 
