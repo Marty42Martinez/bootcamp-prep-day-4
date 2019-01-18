@@ -1,5 +1,4 @@
 function greetMe() {
-    console.log('greetMe function called');
 
     // get the inputs by id
     var firstNameInput = document.getElementById('first-name');
@@ -8,12 +7,10 @@ function greetMe() {
     var firstName = firstNameInput.value;
     var lastName = lastNameInput.value;
     //make the greeting
-    var greeting = 'Hello ' + firstName + ' ' + lastName + '!';
-    console.log(greeting);
-
+    var greeting = 'Hello ' + firstName + ' ' + lastName + ', prepare to die!';
     //display greeting
-
-    //remmove prompt
+    var messenger = document.getElementById('message');
+    messenger.textContent = greeting;
 }
 
 //TODO: validate anme inputs
